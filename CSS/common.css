@@ -1,0 +1,41 @@
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,pre{
+	margin:0;
+	padding:0;
+}
+/*设置body字体 颜色子元素继承*/
+body{
+	font-family:"microsoft yahei","simsun","simhei";
+}
+/* 去掉各Table  cell 的边距并让其边重合 */
+table { 
+	border-collapse: collapse; border-spacing: 0; 
+}
+/*去掉列表项标志*/
+ul,ol{
+	list-style:none;
+}
+a { 
+	outline: none; 
+	color: #333;
+	text-decoration:none; 
+}
+/* a标记让链接在 hover 状态下显示下划线 */
+a:hover {
+	color: #FB8F03;
+}
+/*a标记元素被激活时无轮廓*/
+a:active {
+	outline: none;
+}
+/*输入控件取消轮廓*/
+input,textarea{
+	outline:none;
+	border:none;
+}
+/*解决元素浮动后对其父元素产生的高度问题*/
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}

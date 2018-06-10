@@ -1,0 +1,354 @@
+.main{
+	width:100%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:100%;
+}
+/*header*/
+header.header{
+	width:100%;
+	min-height:129px;
+	padding:0 14.257969%;
+	background-image:linear-gradient(90deg,red 0%,#ad000f 100%);
+	display:flex;
+	justify-content:space-between;
+	color: #fff;
+}
+.logo{
+	display:block;
+	width:19.3888303%;
+	background:url(../IMG/logo.png) center no-repeat;
+	background-size:129.8913043%;
+}
+.search{
+	width:45.3108535%;
+	position:relative;
+}
+.h-search{
+	height:36px;
+	position:absolute;
+	left:0;
+	top:46px;
+	border:2px solid #fff;
+	font-family:inherit;
+	font-size:inherit;
+}
+.h1-search{
+	width:80.4651163%;
+	border-radius:5px 0px 0px 5px;
+	padding:8px;
+	color:rgba(0,0,0,0.8);
+}
+@media (max-width:747px) { 
+ header.header{
+ 	padding:0px;
+ },
+ }
+ @media (max-width:530px) { 
+ a.logo{
+ 	visibility:hidden;
+ }
+  }
+.h2-search{
+	width:18.6046512%;
+	left:80%;
+	border-radius:0px 5px 5px 0px;
+	background-color:#ad000f;
+}
+.h2-search:hover{
+	background-color:red;
+	cursor:pointer;
+}
+.logon{
+	width:27.9241307%;
+	height:28px;
+	position:relative;
+	top:52px;
+	display:flex;
+	justify-content:space-around;
+}
+.bg-logon{
+	width:34.3396226%;
+	height:26px;
+	padding-left:33px;
+	position:relative;
+	background:url(../IMG/qq.gif) 3px 0 no-repeat;
+}
+.ln1-item{
+	width:9.0566038%;
+}
+.bg1-logon{
+	background:url(../IMG/qq.gif) 3px -28px no-repeat;
+}
+ul.logon li a{
+	color: #fff;
+	font-size:12px;
+}
+.ln-item{
+	padding-top:6px;
+	height:100%;
+	position:relative;
+}
+li.bg-logon:hover a:after{
+	content:"";
+	display:block;
+	position:absolute;
+	border-radius:4px;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.2);
+}
+li.ln1-item:hover a:after{
+	content:"";
+	display:block;
+	position:absolute;
+	border-radius:4px;
+	top:0;
+	left:-5px;
+	width:140%;
+	height:100%;
+	background-color:rgba(0,0,0,0.2);
+}
+nav.nav{
+	width:100%;
+	font-weight:700;
+	padding:10px 14.8257969%;
+	background-color:#fff;
+	box-shadow:0 0 4px 1px rgba(0,0,0,0.8);
+	margin-bottom:3px;
+}
+@media(max-width:1109px){
+	nav.nav{padding:0;}
+}
+li.navbar-header:hover{
+	background-color:rgba(231,61,21,0.8);
+	border-radius:10px;
+	transition:all 0.1s linear;
+}
+nav.nav li.crown{
+	background-color:yellow;
+	border-radius:10px;
+	transition:all 0.1s linear;
+}
+.menus-nav{
+	width:50.8206079%;
+	display:block;
+	height:0;
+	overflow:hidden;
+	opacity:0;
+	position:absolute;
+	left:15.5670867%;
+	top:200px;
+	background-color:#fae8c8;
+	transition:all .5s linear;
+	z-index:1000;
+}
+.menus-nav ul a{
+	color:#999;
+}
+.menus-nav p a{
+	color:#ab1;
+}
+.menu{
+	display:flex;
+	justify-content:start;
+}
+.menu li{
+    margin-right:10px;
+    margin-bottom:12px;
+}
+p.menu-title{
+	font-size:15px;
+	text-align:left;
+	margin-bottom:10px;
+	color:#f70909;
+}
+div.menus-nav a:hover{
+	width:65px;
+	color: #fff;
+	background-color:#fa8;
+}
+.blk{
+	height:150px;
+	display:block;
+	padding:10px 0 0 5px;
+	box-shadow:0 0 3px 3px #aad;
+	border-radius:0 0 5px 5px; 
+	opacity:1;
+}
+div.menus-nav img{
+	width:50%;
+	position:absolute;
+	right:0em;
+	top:1em;
+	z-index:1000;
+}
+
+/*footer*/
+div.footer{
+	width:100%;
+	background:#3f3a32;
+	color:#fff;
+	padding-bottom:50px;
+}
+div.footer.container{
+	width:74.1185296%;
+	margin:0 auto;
+	position:relative;
+}
+div.footer a.logo_f{
+	display:inline-block;
+	width:100%;
+	height:80px;
+	background:url("../IMG/logo_f.png") 0 15px no-repeat;
+}
+ul.list-unstyled li{
+	text-align:left;
+	padding:0.25em 0;
+}
+div.footer ul.list-unstyled strong{
+	color:red;
+	font-size:1.1em;
+}
+ul.company-info{
+	width:100%;
+	padding-top:2em;
+	display:flex;
+	justify-content:space-between;
+}
+.info-item{
+	width:104.922px;
+	background:url("../IMG/erweima.png") no-repeat;
+	height:106px;
+	position:relative;
+	text-align:center;
+}
+.info-item1{
+	background-position:0px 0px;
+}
+.info-item2{
+	background-position:-105px 0px;
+}
+.info-item3{
+	background-position:-315px 0px;
+}
+.info-item4{
+	background-position:-210px 0px;
+}
+span.company-b{
+	position:absolute;
+	width:104.992px;
+	top:85px;
+	left:0;
+	color:#fff;
+	display:inline-block;
+	text-align:center;
+}
+p.company-btext{
+	width:104.992px;
+	position:absolute;
+	top:110px;
+	left:0;
+	bottom:-20px;
+	color:#999;
+}
+ul.company-info li:hover{
+	cursor:pointer;
+}
+ul.company-info li p{
+	text-align:center;
+}
+ul.company-info li:hover p{
+	color: #FB8F03 !important;
+}
+div.footer div.row{
+	margin-bottom:4em;
+	text-align:left;
+}
+div.footer div.linkmargin{
+	margin-bottom:20px;
+}
+div.footer div.bottom-line{
+	padding-bottom:1.5em;
+	border-bottom:1px solid #446;
+}
+div.footer a{
+	text-align:left;
+	color:#999;
+	display:inline-block;
+	width:90px;
+	margin:8px 15px  0 0;
+}
+div.footer div.row div.company-link{
+	text-align:center;
+}
+div.footer div.row div.company-link a{
+	display:inline-block;
+	width:auto;
+	margin:0 5px;
+}
+div.footer div.bottom-line div.rowlink a:hover{
+	color:red;
+}
+div.footer div.copyright{
+	margin-bottom:8px;
+}
+div.footer div.copyright a{
+	display:inline-block;
+	padding:3px 5px;
+	width:auto;
+	margin:0;
+}
+div.footer div.copyright a:hover{
+	color:#fff;
+	background:red;
+}
+div.footer div.copyright div{
+	text-align:center;
+	color:#999;
+}
+/*底部search*/
+div.footer div.fixed-f{
+	position:fixed;
+	height:70px;
+	padding:15px;
+	width:100%;
+	bottom:-70px;
+	background:rgba(0,0,0,0.5);
+	transition:all 0.3s linear;
+	z-index:1000;
+}
+div.footer div.fixed-f button,div.footer div.fixed-f input{
+	width:6%;
+	height:40px;
+	border:none;
+	margin-right:10px;
+	outline:none;
+	background:inherit;
+}
+div.footer div.fixed-f input:nth-child(2){
+	width:25%;
+	background:#fff;
+	color:black;
+	padding:5px;
+	border-radius:4px;
+}
+div.footer div.fixed-f input:nth-child(3){
+	background-color:#ad000f;
+	border-radius:4px;
+}
+div.footer a.fixed-top-img{
+	display:block;
+	width:45px;
+	height:45px;
+	background:url("../IMG/top.png") -2.5px 0 no-repeat;
+	position:fixed;
+	right:115px;
+	bottom:-45px;
+	transition:all 0.3s linear;
+}
+.toggleb{
+	bottom:0 !important;
+}

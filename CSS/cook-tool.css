@@ -1,0 +1,299 @@
+#header li.navbar-header:nth-child(5) a.navbar-brand{
+	background:red !important;
+}
+.mainbg{
+	background-color:#fae8c8;
+}
+.footer{
+	text-align:center !important;
+}
+.navbar-default>div.container{
+	padding-left:150px;
+}
+@media (max-width:780px){
+	.navbar-default{
+		padding-left:0;
+	}
+}
+ul.navbar-nav li.active a{
+	color:red !important;
+}
+div.container div.title-margin{
+	margin-bottom:40px;
+}
+ul.cook-list{
+	background:#fff;
+	border-right:1px solid #aaa;
+}
+ul.cook-list li.cook-item{
+	border-bottom:1px solid #aaa;
+}
+ul.cook-list li.cook-item:hover{
+	background:#ff3232;
+	cursor: pointer;
+}
+h3.cook-menus{
+	padding:25px 0 50px 0;
+	width:100%;
+	height:50px;
+	background:url("../IMG/jiajuguan.gif") no-repeat;
+}
+h3.cook-1{
+	background-position:18px -14px;
+}
+h3.cook-1:hover{
+	background-position:18px -311px;
+}
+h3.cook-2{
+	background-position:18px -609px;
+}
+h3.cook-2:hover{
+	background-position:18px -906px;
+}
+h3.cook-3{
+	background-position:18px -1212px;
+}
+h3.cook-3:hover{
+	background-position:18px -1519px;
+}
+h3.cook-4{
+	background-position:18px -2414px;
+}
+h3.cook-4:hover{
+	background-position:18px -2711px;
+}
+div.carousel img{
+	width:100%;
+	height:304px !important;
+}
+.title-hidde{
+	position:relative;
+}
+.cook-hidden{
+	width:120%;
+	height:0;
+	background:#f5f5f5;
+	position:absolute;
+	z-index:100;
+	top:0;
+	right:-315px;
+	overflow:hidden;
+	transition:all 0.5s linear;
+}
+.heigthAuto{
+	height:auto !important;
+}
+.cook-hidden li{
+	padding:15px 0 0 30px;
+	text-align:left;
+}
+.cook-hidden h4{
+	padding-bottom:10px;
+}
+.cook-hidden h4 a{
+	color:#ff3232;
+}
+.hidden-cook{
+	display:flex;
+	justify-content:start;
+	flex-wrap:wrap;
+}
+.hidden-cook li{
+	padding:0 15px 15px 0;
+}
+div.privilege{
+	margin-bottom:35px;
+}
+div.privilege div.row:first-child h3 span{
+	float: left;
+}
+div.privilege div.row:first-child h3 a{
+	float: right;
+	text-decoration: none;
+}
+div.privilege div.row:last-child{
+	position:relative;
+}
+div.privilege div.cook-small{
+	width:60%;
+	position:relative;
+}
+div.privilege div.cook-small:hover{
+	cursor:move;
+}
+div.privilege div.cook-big{
+	width:333px;
+	height:333px;
+	position:absolute;
+	overflow:hidden;
+	z-index:1000;
+	border:1px solid #aaa;
+	display:none;
+}
+div.privilege div.big-left{
+	left:350px;
+	top: 0;
+}
+div.privilege div.big-right{
+	left:-330px;
+	top: 0;
+}
+div.privilege div.cook-big img{
+	width:740px;
+	height:740px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+div.privilege div.cook-small div.move{
+	position:absolute;
+	top:0;
+	left:0;
+	width:45%;
+	height:45%;
+	background:#FEDE4F;
+	opacity:0.3;
+	display:none;
+}
+div.privilege div.cook-small img{
+	width:100%;
+	height:333px;
+}
+div.privilege div.cook-detail{
+	height:100%;
+	position:absolute;
+	top: 0;
+	right: 0;
+	width:41%;
+	background:#fff;
+}
+div.privilege div.cook-detail h3{
+	padding:5px;
+	line-height:35px;
+	margin-bottom:45px;
+}
+div.privilege div.cook-detail p{
+	text-align:left;
+	margin:20px;
+}
+div.privilege div.cook-detail>a{
+	position:relative;
+	left:25px;
+	bottom:-15px;
+}
+div.recommends{
+	margin-bottom:50px;
+}
+div.recommends div.row:first-child h2{
+	text-align:left;
+}
+div.recommends div.recommend-bg{
+	background:url("../IMG/recommendcook.jpg") 0 0 no-repeat;
+	width:233px;
+	height:170px;
+	position:absolute;
+	z-index:100;
+	right: 0;
+	top:330px;
+}
+div.recommends div.row:nth-child(2) div.col-sm-2{
+	padding:0 0 0 10px;
+	text-align:left;
+	position:relative;
+	height:480px !important;
+}
+div.recommends div.row:nth-child(2) h3{
+	padding:25px 8px 25px 20px;
+	background:#fff;
+}
+div.recommends div.row:nth-child(2) h3 span{
+	display:inline-block;
+	position: relative;
+	top:5px;
+	width:5px;
+	height:25px;
+	background:#aaa;
+	margin-right:10px;
+}
+div.recommends div.row:nth-child(2) ul{
+	background:#fff;
+	height:401px;
+}
+div.recommends div.row:nth-child(2) ul li{
+	padding:10px 0 10px 25px;
+	font-size:20px;
+	margin-left:10px;
+}
+div.recommends div.row:nth-child(2) ul li.redHover{
+	background:#999;
+	cursor:pointer;
+}
+div.recommends div.row:nth-child(2) ul li a{
+	text-decoration:none;
+}
+div.recommends div.row:nth-child(2) ul li.redHover a,
+div.recommends div.row:nth-child(2) ul li.redHover0 a{
+	color:#fff;
+}
+div.recommends>div.row:nth-child(2) div{
+	padding:0;
+	margin:0;
+}
+div.recommends div.row:nth-child(2):not(:first-child) img{
+	width:100%;
+	height:240px;
+	margin:0 2px 1px 0;
+	border-right:1px solid #e5e5e5;
+}
+div.recommends div.recommend-bg1{
+	background:url("../IMG/recommendcook1.jpg") 26px 0 no-repeat;
+	width:233px;
+	height:190px;
+	position:absolute;
+	z-index:100;
+	right: 0;
+	top:300px;
+}
+div.recommends div.row:nth-child(2) h3 span.yellow{
+	background:#f1a101 !important;
+}
+div.recommends div.recommend-bg2{
+	background:url("../IMG/recommendcook2.jpg") -5px -43px no-repeat;
+	width:233px;
+	height:210px;
+	position:absolute;
+	z-index:100;
+	right: 0;
+	top:290px;
+}
+div.recommends div.row:nth-child(2) ul li.redHover0{
+	background:#f1a101;
+	cursor:pointer;
+}
+div.anchor{
+	position:fixed;
+	top:190px;
+	left:5px;
+	display:none;
+	z-index:1500;
+}
+div.anchor ul li:hover{
+	cursor:pointer;
+}
+div.anchor ul li,
+div.anchor ul li span{
+	width:74px;
+	height:54px;
+	padding:20px 15px;
+	background:#c81623;
+	border-bottom:1px dashed #aaa;
+	position:relative;
+}
+div.anchor ul li span{
+	display:none;
+	color:#fff;
+	position:absolute;
+	z-index:1000;
+	top: 0;
+	right: 0;
+}

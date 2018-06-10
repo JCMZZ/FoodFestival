@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>美食杰</title>
+	<link href="../CSS/bootstrap.css" rel="stylesheet">
+	<link href="../CSS/font-awesome.css" rel="stylesheet">
+	<link href="../CSS/animate.css" rel="stylesheet">
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="../CSS/common.css">
+	<link rel="stylesheet" href="../CSS/hf.css">
+	<link rel="stylesheet" href="../CSS/register.css">
+</head>
+<body>
+	<div class="main">
+		<!-- 搜索注册登录 header.html -->
+		<!-- <div id="header"></div> -->
+		<div class="register">
+			<div class="body">
+				<div class="group">
+					<label for="uname">请输入用户名</label>
+					<input  type="text" autofocus="true" id="uname" />
+				</div>
+				<div class="group">
+					<label for="upwd">请输入密码</label>
+					<input  type="password" id="upwd" />
+				</div>
+				<div class="group">
+					<label for="check-upwd">请输入确认密码</label>
+					<input  type="password" id="check-upwd" />
+				</div>
+				<div class="group">
+					<label for="phone">请输入电话</label>
+					<input  type="text" id="phone" />
+				</div>
+				<div class="group">
+					<label for="email">请输入邮箱</label>
+					<input  type="text" id="email" />
+				</div>
+				<div class="group">
+					<label for="internet">请输入网址(选填)</label>
+					<input  type="text" id="internet" />
+				</div>
+				<div class="checkbox" id="checkGender">
+					<input type="checkbox" id="gender1" value="男" name="gender">
+					<span class="nan">男</span>
+					<input type="checkbox" id="gender0" value="女" name="gender">
+					<span class="nv">女</span>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" value="同意" id="agreement"  name="isDel">
+					<span class="nan">勾选同意<strong>协议</strong></span>
+				</div>
+				<button>提交</button>
+				<button>首页</button>
+			</div>
+			<div class="warning-model" data-warning="warning">
+				<div class="warning">
+					<span>提　　示</span>
+					<p data-text="warning">lorem</p>
+					<button>确定</button>
+				</div>
+			</div>
+		</div>
+		<!-- 页脚  footer.html-->
+		<!-- <div id="footer" class="footer"></div> -->
+	</div>
+</body>
+<script src="../JS/jquery-1.11.3.js"></script>
+<script src="../JS/bootstrap.js"></script>
+<script src="../JS/register.js"></script>
+<script>
+	$("#header").load("header.html");
+	$("#footer").load("footer.html");
+	setTimeout(()=>{$.getScript('../JS/index.js')},100);
+</script>
+</html>

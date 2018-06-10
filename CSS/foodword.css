@@ -1,0 +1,295 @@
+#header li.navbar-header:nth-child(2) a.navbar-brand{
+	background:red !important;
+}
+.seconde-header{
+	width:80%;
+	position:relative;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+.seconde-header a{
+	color:#fff;
+	text-decoration: none;
+}
+.seconde-header a:hover{
+	color:#FB8F03 !important;
+}
+.table-face{
+	width:30%;
+	background:#0ca670;
+}
+.table-search{
+	width:100%;
+}
+.table-items{
+	padding:1rem;
+	width:100%;
+	border-bottom:0.1rem solid #aaa;
+}
+.table-h4{
+	width:100%;
+	text-align:left;
+	padding-bottom:1.2rem;
+	color: #fff;
+}
+.table-h4 span{
+	float:right;
+	font-size:3rem;
+	padding-bottom:0.4rem;
+}
+.items-item{
+	display:flex;
+	justify-content:start;
+	width:auto;
+	text-align:left;
+}
+.item-item{
+	width:auto;
+	margin-right:1.5rem;
+}
+.table-banner{
+	width:70%;
+	height:363px;
+	position:absolute;
+	top:0;
+	right:0;
+	overflow:hidden;
+}
+@media (max-width:1340px){
+	.table-face{
+		width:100%;
+		display:flex;
+		justify-content:space-between;
+		background:#0ca670;
+	}
+	.table-banner{
+		width:100%;
+		position:absolute;
+		top:362.5px;
+		right:0;
+	}
+	.seconde-header{
+		height:726px;
+	}
+}
+div.seconde-header .container{
+	width:100% !important;
+	padding:0;
+}
+div.seconde-header .container img{
+	width: 100% !important;
+	height:363px !important;
+}
+div.container span.icon-menu{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	float:left;
+	margin-right:4px;
+	background:url("../IMG/iconfont.png") -5px -459px no-repeat;
+}
+div.main div.food1{
+	width:80%;
+	margin-bottom:30px;
+}
+div.food1 div.col-xs-12{
+	position:relative;
+	padding:0;
+	margin-bottom:30px;
+}
+div.food1 p.title-menu{
+	padding-bottom:15px;
+	padding-top:5px;
+	font-size:1.5em;
+	float:left;
+}
+div.food1 p.title-menu span.litle-menu{
+	font-size:0.8em;
+	position:relative;
+	left:-92px;
+	top:20px;
+	color:#aaa;
+}
+div.food1 a.menu-change{
+	display:inline-block;
+	height:40px;
+	font-size:20px;
+	line-height:40px;
+	padding-left:20px;
+	background:url("../IMG/iconfont.png") -31px -699px no-repeat;
+	float:right;
+	text-decoration: none;
+}
+div.food1 a.menu-change:hover{
+	cursor: pointer;
+}
+div.row:not(:first-child) div{
+	padding:0;
+	margin-bottom:25px;
+}
+div.row:not(:first-child) div a.food1-img img{
+	width:170px;
+	height:115px;
+	transition:all 0.5s linear;
+}
+div.row:not(:first-child) div a.food1-img img:hover{
+	transform: scale(1.1);
+}
+div.row:not(:first-child) div a.food1-img{
+	width:170px;
+	height:115px;
+	overflow:hidden;
+	display:block;
+	margin-bottom:15px;
+}
+div.main div.food-news{
+	width:80%;
+	position:relative;
+}
+div.main div.food-news a{
+	text-decoration:none;
+}
+div.food-news div.col-sm-8{
+	margin-left:15px;
+}
+div.food-news div.col-sm-8 div.row:first-child{
+	border-bottom:1px solid #079865;
+}
+div.food-news div.col-sm-8 i.icon{
+	display:inline-block;
+	width: 35px;
+	height: 32px;
+	background:url("../IMG/iconfont.png") -10px -519px no-repeat;
+	float:left;
+	margin-right:5px; 
+}
+div.food-news div.col-sm-8 h3{
+	text-align:left;
+	padding-top:3.5px;
+	padding-bottom:8px;
+}
+div.food-news div.col-sm-8 p{
+	line-height:25px;
+	text-align:left;
+}
+div.food-news div.col-sm-8 div.news-padding{
+	padding-left:20px;
+}
+div.food-news div.col-sm-8 div.row:not(:first-child){
+	border-bottom:1px dashed #f4f4f4;
+	padding-top:8px;
+}
+div.food-news div.col-sm-8 div.row:not(:first-child) div{
+	margin-bottom:10px;
+}
+div.food-news div.col-sm-8 div.row:not(:first-child):hover{
+	background:#f4f4f4;
+}
+div.food-news div.col-sm-8 div.row:nth-child(6),
+div.food-news div.col-sm-8 div.row:nth-child(13){
+	border:none;
+}
+div.container span.icon-news{
+	background-position:-5px -399px;
+	margin-top:7px;
+}
+div.food-news div.row div.col-sm-offset-1 p{
+	margin-top:7px;
+}
+div.food-news div.col-sm-3{
+	margin-left:60px;
+}
+@media (max-width:1130px){
+	div.food-news div.col-sm-3{
+		margin-left:0;
+	}
+}
+div.food-news ul.ranking-list{
+	width:100%;
+}
+div.food-news ul.ranking-list li{
+	width:100%;
+	margin-bottom:10px;
+	height:36px;
+}
+div.food-news ul.ranking-list li h4{
+	text-align:left;
+	line-height:36px;
+	padding-left:15px;
+}
+div.food-news ul.ranking-list li h4 b{
+	margin-right:20px; 
+}
+div.food-news ul.ranking-list li:last-child h4 b{
+	margin-right:10px; 
+}
+div.food-news ul.ranking-list li:nth-child(1) h4 b,
+div.food-news ul.ranking-list li:nth-child(2) h4 b,
+div.food-news ul.ranking-list li:nth-child(3) h4 b{
+	color: #fff;
+}
+div.food-news ul.ranking-list li:nth-child(1) h4 a,
+div.food-news ul.ranking-list li:nth-child(2) h4 a,
+div.food-news ul.ranking-list li:nth-child(3) h4 a{
+	color:#fff;
+}
+div.food-news ul.ranking-list li.ranking-item:nth-child(1){
+	background:#ff8242;
+}
+div.food-news ul.ranking-list li.ranking-item:nth-child(2){
+	background:#ff9059;
+}
+div.food-news ul.ranking-list li.ranking-item:nth-child(3){
+	background:#ffa578;
+}
+div.food-news ul.cooking-tool{
+	width:100%;
+}
+div.food-news ul.cooking-tool li img{
+	width:100%;
+}
+div.food-news ul.cooking-tool li h4{
+	height:35px;
+	line-height:35px;
+}
+div.food-news ul.cooking-tool li{
+	margin-bottom:10px;
+}
+.cooking-tool-fixed{
+	position:fixed;
+	top:10px;
+}
+.cooking-tool-relative{
+	position:absolute !important;
+}
+div.food-news div.advertising-imgs{
+	padding:15px 0 15px 0 !important;
+	position:relative !important;
+	border:none !important;
+	background:none !important;
+}
+div.food-news div.advertising-imgs div.col-xs-12{
+	overflow:hidden;
+}
+div.food-news div.advertising-imgs img{
+    width:95% !important;
+    height:200px !important;
+    margin-left:0 !important;
+}
+div.food-news div.advertising-translate{
+	padding-top:100px;
+	width:95% !important;
+	height:200px !important;
+	background:rgba(0,0,0,0.7);
+	transition:all 1s linear;
+	position:absolute;
+	right:5px;
+	top:-210px;
+	/* top: 0; */
+}
+div.food-news div.advertising-translate h4{
+	color:#f4f4f4;
+}
+div.food-news div.advertising-translate p{
+	text-align:center;
+}

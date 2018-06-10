@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>美食杰</title>
+	<link href="../CSS/bootstrap.css" rel="stylesheet">
+	<link href="../CSS/font-awesome.css" rel="stylesheet">
+	<link href="../CSS/animate.css" rel="stylesheet">
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="../CSS/common.css">
+	<link rel="stylesheet" href="../CSS/hf.css">
+	<link rel="stylesheet" href="../CSS/login.css">
+</head>
+<body>
+	<div class="main">
+		<!-- 搜索注册登录 header.html -->
+		<!-- <div id="header"></div> -->
+		<div class="login">
+			<img class="bgImg" src="../IMG/loginbg.jpg" alt="">
+			<from class="from">
+				<label for="uname">用户名</label>
+				<input type="text" id="uname" placeholder="请输入用户名" autofocus="autofocus">
+				<label for="upwd">密　码</label>
+				<input type="password" id="upwd" placeholder="请输入密码">
+				<button type="button">确认</button>
+				<button type="button">返回</button>
+			</from>
+			<div class="modal-diractive">
+				<div class="warning">
+					<span>警告</span>
+					<p data-text="warning">55555</p>
+					<button>确定</button>
+				</div>
+			</div>
+		</div>
+		<!-- 页脚  footer.html-->
+		<!-- <div id="footer" class="footer"></div> -->
+	</div>
+</body>
+<script src="../JS/jquery-1.11.3.js"></script>
+<script src="../JS/bootstrap.js"></script>
+<script src="../JS/login.js"></script>
+<script>
+	$("#header").load("header.html");
+	$("#footer").load("footer.html");
+	setTimeout(()=>{$.getScript('../JS/index.js')},100);
+</script>
+</html>

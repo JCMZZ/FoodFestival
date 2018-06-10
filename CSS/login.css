@@ -1,0 +1,98 @@
+.login{
+	position: relative;
+}
+.bgImg{
+	width:100%;
+}
+.from{
+	width:500px;
+	height:400px;
+	position:absolute;
+	background:rgba(0,0,0,0.3);
+	top:-100px;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin:auto;
+	padding:50px;
+	border-radius:5px;
+	box-shadow:0 0  10px 2px black;
+}
+.from input{
+	width:80%;
+	height:50px;
+	margin:0 auto;
+	border-radius:10px;
+	background:rgba(0,0,0,0.6);
+	border:1px solid transparent;
+	margin:20px;
+	color:#f5f5f5;
+	padding:10px;
+}
+.from label{
+	/* position:absolute; */
+	/* color:#eee; */
+	font-size:20px;
+}
+.from label:hover{
+	cursor: pointer;
+}
+.from button,
+.modal-diractive div.warning button{
+	width:30%;
+	margin:20px;
+	height:50px;
+	background:rgba(0,0,0,0.3);
+	border: none;
+	font-size:20px;
+	color:#aaa;
+	outline:none;
+}
+.from button:hover,
+.modal-diractive div.warning button:hover{
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+.modal-diractive{
+	width:100%;
+	height:100%;
+	background:rgba(127,127,127,0.9);
+	/* background:#fff; */
+	position:absolute;
+	top: 0;
+	right:0;
+	z-index:1000;
+	display:none;
+}
+.modal-diractive div.warning{
+	width:30%;
+	height:300px;
+	position:absolute;
+	right:0;
+	left:0;
+	bottom:0;
+	top:-200px;
+	margin:auto;
+	background:rgba(0,0,0,0.5);
+}
+.modal-diractive div.warning span{
+	color:#e4b9b9;
+	line-height:100px;
+	font-size:40px;
+}
+.modal-diractive div.warning p{
+	color:#ca6666;
+	font-size:30px;
+	text-align:left;
+	line-height:40px;
+	padding:20px; 
+}
+.modal-diractive div.warning button{
+	position:absolute;
+	bottom:0;
+	top:240px;
+	margin:0;
+}
